@@ -1,0 +1,99 @@
+.form_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.form_main_container {
+    /* height: 50vh; */
+    max-width: 500px;
+    background-color: #ffff;
+    border-radius: 32px;
+    padding: 2rem;
+}
+
+.form_heading {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form_subHeading {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.input_container {
+    padding: 1rem;
+    display: block;
+    margin-top: 8px;
+    width: 90%;
+    border-radius: 12px;
+    border: 1px solid #EFEFEF;
+}
+
+.form_fields {
+    margin-top: 1rem;
+}
+
+.trouble_text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.dont_text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.sign_in_button {
+    background-color: #FEC887;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.text_top {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.login_buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    margin-top: 1rem;
+}
+
+.google_button {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    background-color: #FFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #EFEFEF;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
